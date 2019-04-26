@@ -25,12 +25,14 @@ limitations under the License.
    --background-hover: rgba(255, 255, 255, 0.1);
    --background-light: #AAA;
    --background-bright: #FFF;
+   --background-dark: $0000;
 
    --border-dim: #666;
    --border-bright: var(--primary);
 
    --text-bright: #FFF;
    --text-special: var(--primary);
+   --text-dark: #000
 
    --scrollbar-background: #000;
    --scrollbar-border: var(--primary);
@@ -768,7 +770,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 
 /* editor in thread reply */
 #convo_tab .message_input, #convo_tab textarea#msg_text {
-   color: var(--text) !important;
+   color: var(--text-dark) !important;
 }
 .inline_message_input_container .ql-container.focus,
 .inline_message_input_container .ql-container:active {
