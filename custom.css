@@ -780,7 +780,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 #reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container,
 .reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container,
 #convo_tab #convo_tab_header {
-   color: var(--text) !important;
+   color: var(--text-dark) !important;
 }
 
 /* other */
